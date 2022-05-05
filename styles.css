@@ -1,0 +1,94 @@
+:root {
+--dark-cyan: hsl(185, 75%, 39%);
+--very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--dark-grayish-blue: hsl(227, 10%, 46%);
+--neutral-dark-gray: hsl(0, 0%, 59%);    
+}
+
+body {
+    background: var(--dark-cyan);
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+}
+
+.bg1 {
+    position: absolute;
+    top: -456px;
+    left: -276px;
+}
+
+.bg2 {
+    position: absolute;
+    top: 360px;
+    left: 749px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.container {
+    width: 350px;
+    height: 373px;
+    background: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#header img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#person_img {
+    border-radius: 50%;
+    border: 6px solid #fff;
+    position: absolute;
+    top: 85px;
+    left: 125px;
+}
+
+#person_data {
+    margin-top: 70px;
+    border-bottom: 1px solid #ddd;
+}
+
+.name {
+    color: var(--very-dark-desaturated-blue);
+    font-size: 18px;
+}
+
+.age {
+    color: var(--neutral-dark-gray);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p {
+    color: var(--neutral-dark-gray);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+hr {
+    color: var(--neutral-dark-gray);
+    width: 95%;
+}
+
+.feature {
+    width: 32%;
+    display: inline-block;
+}
+
+.feature h2 {
+    font-size: 18px;
+}
+
+.feature p {
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+  
